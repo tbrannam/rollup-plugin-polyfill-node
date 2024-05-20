@@ -1,9 +1,12 @@
 {
-  "name": "rollup-plugin-polyfill-node",
+  "name": "@tbrannam/rollup-plugin-polyfill-node",
   "version": "0.13.0",
   "main": "dist/index.js",
   "module": "dist/es/index.js",
   "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
   "scripts": {
     "pretest": "npm run build",
     "test": "mocha",
@@ -49,6 +52,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/FredKSchott/rollup-plugin-polyfill-node"
+    "url": "https://github.com/tbrannam/rollup-plugin-polyfill-node.git"
   }
 }
