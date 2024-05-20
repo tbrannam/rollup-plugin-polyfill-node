@@ -1,6 +1,6 @@
 {
-  "name": "rollup-plugin-polyfill-node",
-  "version": "0.13.0",
+  "name": "@tbrannam/rollup-plugin-polyfill-node",
+  "version": "0.13.0-filter",
   "main": "dist/index.js",
   "module": "dist/es/index.js",
   "types": "dist/index.d.ts",
@@ -46,9 +46,5 @@
     "rollup": "^4.0.2",
     "serve": "^11.3.2",
     "typescript": "^5.2.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/FredKSchott/rollup-plugin-polyfill-node"
   }
 }
